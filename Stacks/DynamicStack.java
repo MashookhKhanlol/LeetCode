@@ -9,7 +9,7 @@ public class DynamicStack {
             data = new int[cap];
             tos = -1;
         }
-
+        //hello this is me
         void push(int val) {
             if (tos == data.length - 1) {
                 int[] ndata = new int[data.length *2];
